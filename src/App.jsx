@@ -4,7 +4,7 @@ import "./App.css" ;
 import Banner from "./Components/Banner/Banner";
 function App() {
   return (
-    <div>
+    <div  className="App">
       <Banner />
       <Row
 				title="NETFLIX ORIGINALS"

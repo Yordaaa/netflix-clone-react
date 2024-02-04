@@ -17,7 +17,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
   }, [fetchUrl]);
 
   return (
-    <div>
+    <div className="row">
       <h1>{title}</h1>
       <div className="row_posters">
         {movies.map((movie) => (
